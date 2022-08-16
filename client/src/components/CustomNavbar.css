@@ -1,0 +1,179 @@
+:root {
+	--primary: #1888ff;
+}
+
+.navbar {
+	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+	width: 100%;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+	position: fixed;
+	font-size: 15px;
+}
+
+.navbar-logo {
+	color: #fff;
+	justify-self: start;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	margin-bottom: 60px;
+}
+
+.navbar-logo:hover {
+	text-decoration: none;
+	background-color: transparent;
+	color: #1888ff;
+}
+
+.fa-firstdraft {
+	margin-left: 0.5rem;
+	font-size: 1.6rem;
+}
+
+.nav-menu {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 10px;
+	list-style: none;
+	text-align: center;
+	width: 70vw;
+	justify-content: end;
+	margin-right: 2rem;
+}
+
+.nav-item {
+	display: inline;
+	margin-top: 12px;
+	align-items: center;
+	text-align: center;
+	height: 80px;
+}
+
+.nav-links {
+	color: white;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+	background-color: var(--primary);
+	border-radius: 4px;
+	transition: all 0.2s ease-out;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav_menu .items_drop:hover .drop_menu {
+	opacity: 1;
+	visibility: visible;
+}
+
+.nav_menu .drop_menu {
+	background: var(--primary);
+	width: 180px;
+	top: 85px;
+	line-height: 45px;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.drop_menu .items_drop .nav-links {
+	width: 100%;
+	display: block;
+	padding: 0 0 0 15px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.fa-bars {
+	color: #fff;
+}
+
+.nav-links-mobile {
+	display: none;
+}
+
+.menu-icon {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.NavbarItems {
+		position: relative;
+	}
+	.nav-menu {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0;
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 50px;
+		left: -100%;
+		opacity: 1;
+		transition: all 0.5s ease;
+	}
+	.nav-menu.active {
+		background: #242222;
+		left: 0;
+		opacity: 1;
+		transition: all 0.5s ease;
+		z-index: 1;
+	}
+	.nav-links {
+		text-align: center;
+		padding: 2rem 0;
+		width: 100%;
+		display: table;
+	}
+	.nav-links:hover {
+		background-color: #1888ff;
+		border-radius: 0;
+	}
+	.navbar-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(25%, 25%);
+	}
+	.menu-icon {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(-220%, 30%);
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
+	.fa-times {
+		color: #fff;
+		font-size: 2rem;
+	}
+	.nav-links-mobile {
+		display: block;
+		text-align: center;
+		padding: 1.5rem;
+		border-radius: 4px;
+		width: 80%;
+		background: #1888ff;
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.5rem;
+	}
+	.nav-links-mobile:hover {
+		background: #fff;
+		color: #1888ff;
+		transition: 250ms;
+	}
+	.custom_btn {
+		display: none;
+	}
+}

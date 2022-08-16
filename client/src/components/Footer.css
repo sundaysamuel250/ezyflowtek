@@ -1,0 +1,73 @@
+.social-icon.fab {
+    background-color: #333068;
+    color: #fff;
+    border: 5px solid #6C63FF;
+    border-radius: 100%;
+    width: 50px!important;
+    height: 50px;
+    top: 20!important;
+    font-size: 30px;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.fa-facebook-f {
+    text-align: center!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-small {
+    background-color: #000000;
+    padding: 3rem 0;
+}
+
+.footer_p p {
+    display: block;
+    text-align: start!important;
+}
+
+hr {
+    color: #fff;
+}
+
+.glory {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.glory h6 {
+    display: block;
+    align-items: center;
+    text-align: start;
+    color: #6C63FF;
+}
+
+.glory p, .glory p a {
+    display: block;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .glory h6 {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: #6C63FF;
+    }
+    .glory p, .glory p a {
+        display: block;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+}

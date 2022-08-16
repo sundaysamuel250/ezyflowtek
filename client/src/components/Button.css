@@ -1,0 +1,29 @@
+:root {
+    --primary: #1888ff;
+}
+
+.custom_btn {
+    display: block;
+    padding: 6px 18px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.custom_btn:hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    text-decoration: none;
+    outline: none;
+}

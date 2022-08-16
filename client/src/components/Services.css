@@ -1,0 +1,599 @@
+/*------------------------service_sectionBg_start_here-----------------------------*/
+
+.service_section {
+    display: block;
+    background-image: linear-gradient( rgba(12, 115, 218, 0.5), rgba(43, 79, 189, 0.5)), url("../images/aboutS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden !important;
+}
+
+.service_section_content {
+    position: absolute;
+    top: 20%;
+    padding-left: 100px;
+    justify-content: center;
+    color: white;
+    width: 100vw;
+}
+
+.service_button Button {
+    position: relative;
+    margin-top: 15px;
+    display: block;
+    padding: 20px 18px;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(175, 76, 96);
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: auto!important;
+    text-decoration: none;
+}
+
+.service_button Button:hover {
+    padding: 20px 18px;
+    transition: all 0.3s ease-out;
+    background-color: darkred;
+    color: #f5f5f5;
+    text-decoration: none!important;
+    outline: none;
+}
+
+.service_section_content h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: 0.3rem .5rem rgba(12, 115, 218, 0.5);
+}
+
+.service_section_content h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 20px;
+    text-shadow: 0.3rem .5rem rgba(12, 115, 218, 0.5);
+}
+
+/*------------------------service_sectionBg_end_here-----------------------------*/
+
+.service_section2 {
+    background-color: #fff;
+    padding: 2rem 0;
+}
+
+.service_section2 p {
+    color: red;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 100px
+}
+
+.service_section3 {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+}
+
+.service_section3 .row {
+    align-items: center;
+    justify-content: center;
+}
+
+.service_section3 .row {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    row-gap: 10px;
+    position: relative;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.service_section3 .section3_service_content {
+    width: 45rem;
+}
+
+.service_section3 .section3_service_content h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    color: #1888ff;
+    letter-spacing: 1px;
+}
+
+.service_section3 .section3_service_content p {
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
+.service_image1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.service_section4 {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 11em 0;
+}
+
+.service_section4 .row h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    padding-left: 4rem;
+    font-family: 'Playfair Display', serif;
+    color: rgb(90, 86, 86);
+    padding-bottom: 3rem;
+    letter-spacing: 1px;
+}
+
+.service_section4 .row p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.section4__service_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    row-gap: 10px;
+    align-items: center;
+}
+
+.section4__service_content {
+    text-align: center;
+}
+
+/*
+
+.list_item3::after {
+    content: "";
+    width: 1px;
+    height: 50px;
+    background-color: red;
+}
+*/
+
+.section4 .list_item1, .list_item2, .list_item3, .list_item4 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section4 .list_item1, .list_item2, .list_item3, .list_item4, h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    color: #1888ff;
+    letter-spacing: 1px;
+}
+
+/*------------------------service_section5_start_here-----------------------------*/
+
+.service_section5 {
+    width: 100%;
+    height: auto;
+    background-color: #1888ff;
+    padding: 10rem 0;
+}
+
+.service_section5 .service_section5_content {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    position: relative;
+    padding: 0 4rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.service_offer {
+    position: relative;
+    left: 5%;
+}
+
+.end_partner {
+    position: relative;
+    left: 5%;
+}
+
+.service_section5 h3 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.service_section5 h1 {
+    padding: 4rem 0;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.service_section5_image {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_section5_image img {
+    width: 50%;
+    justify-content: center;
+}
+
+/*------------------------service_section5_end_here-----------------------------*/
+
+/*------------------------service_section6_start_here-----------------------------*/
+
+.service6 {
+    padding: 10rem 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.service6 h2 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgba(240, 11, 11, 0.729);
+    font-size: 4em;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+}
+
+.service_count_page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    margin-top: 6rem;
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+.service_count_item h1 {
+    color: rgba(247, 6, 6, 0.729);
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+}
+
+.service_count_item p {
+    color: rgb(90, 86, 86);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*------------------------service_section6_end_here-----------------------------*/
+
+/*----------------------------services_section7-carousel-start-here-------------------------------------*/
+
+.service_carousel {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.service_carousel .active {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4rem;
+}
+
+.mdb_carousel_service_image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9));
+}
+
+.service_carousel .service_carousel_content {
+    justify-content: center;
+    align-items: center;
+}
+
+.service_carousel .service_carousel_content h1 {
+    font-size: 3.5rem;
+    color: #1888ff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.service_carousel .service_carousel_content p {
+    font-size: 1.3rem;
+    color: #696969;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/*----------------------------services_section7-carousel-ends-here-------------------------------------*/
+
+/*------------------------service_section8_start_here-----------------------------*/
+
+.service_section8 {
+    background: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+
+.service_section8 .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 4rem 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_section8 .service_section8_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.service_section8 .service_section8_content h1 {
+    font-size: 3.4rem;
+    color: #1888ff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.service_section8 .service_section8_image img {
+    width: 100%;
+    height: 60%;
+}
+
+.service_section8 .service_section8_content p {
+    color: #696969;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.service_section8 .service_section8_content ul {
+    color: #696969;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*------------------------service_section8_end_here-----------------------------*/
+
+/*------------------------service_section9_start_here-----------------------------*/
+
+.service_section9 {
+    background: #f5f5f5;
+}
+
+.service_section9 .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 4rem 4rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_section9 .service_section9_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.service_section9 .service_section9_content h1 {
+    font-size: 3.4rem;
+    color: #1888ff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.service_section9 .service_section9_image img {
+    width: 80%;
+    height: 100%;
+}
+
+.service_section9 .service_section9_content p {
+    color: #696969;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.service_section9 .service_section9_content ul {
+    color: #696969;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*------------------------service_section9_end_here-----------------------------*/
+
+/*------------------------service_section10_start_here-----------------------------*/
+
+.service_section10 {
+    background: #f5f5f5;
+}
+
+.service_section10 .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 4rem 4rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_section10 .service_section10_content {
+    align-items: center;
+    justify-content: center;
+}
+
+.service_section10 .service_section10_content h1 {
+    font-size: 3.4rem;
+    color: #1888ff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.service_section10 .service_section10_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.service_section10 .service_section10_content p {
+    color: #696969;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.service_section10 .service_section10_content ul {
+    color: #696969;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*------------------------service_section10_end_here-----------------------------*/
+
+@media only screen and (max-width: 768px) {
+    .service_section_content {
+        padding-left: 40px;
+    }
+    .service_button Button {
+        width: 70vw;
+    }
+    .service_button Button {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    .service_section h1 {
+        color: #fff;
+        font-size: 2rem;
+    }
+    .service_section h2 {
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    /*------------------------service_section3_media query-start here-----------------------------*/
+    .service_section3 .row {
+        display: block;
+        align-items: center;
+    }
+    .service_section3 .section3_service_content h1 {
+        font-size: 2rem;
+    }
+    /*------------------------service_section8_media query-end here-----------------------------*/
+    /*------------------------service_section4_media query-start here-----------------------------*/
+    .service_section4 {
+        padding: 2em 0;
+    }
+    .service_section4 .row h1 {
+        font-size: 2rem;
+    }
+    .section4 .list_item1, .list_item2, .list_item3, .list_item4, h2 {
+        font-size: 2rem;
+    }
+    .service_section4 .row p {
+        font-size: 1.2rem;
+        font-weight: 300;
+        font-family: 'Playfair Display', serif;
+    }
+    /*------------------------service_section4_media query-end here-----------------------------*/
+    /*------------------------service_section5_media query-start here-----------------------------*/
+    .service_section5 h3 {
+        font-size: 1.8em;
+    }
+    .service_section5 h1 {
+        font-size: 2rem;
+    }
+    /*------------------------service_section6_media query-start here-----------------------------*/
+    .service6 h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    /*------------------------service_section5_media query-start here-----------------------------*/
+    /*------------------------service_section5_media query-end here-----------------------------*/
+    /*------------------------service_section7_media query-start here-----------------------------*/
+    .service_carousel .service_carousel_content h1 {
+        font-size: 2rem;
+    }
+    .service_carousel .service_carousel_content p {
+        font-size: 1rem;
+    }
+    /*------------------------service_section7_media query-end here-----------------------------*/
+    /*------------------------service_section8_media query-start here-----------------------------*/
+    .service_section8 .service_section8_content h1 {
+        font-size: 2rem;
+    }
+    .service_section8 .service_section8_content p {
+        font-size: 1.2rem;
+    }
+    .service_section8 .service_section8_content ul {
+        font-size: 1rem;
+    }
+    /*------------------------service_section8_media query-start here-----------------------------*/
+    /*------------------------service_section9_media query-start here-----------------------------*/
+    .service_section9 .service_section9_content h1 {
+        font-size: 2rem;
+    }
+    .service_section9 .service_section9_content p {
+        font-size: 1.2rem;
+    }
+    .service_section9 .service_section9_content ul {
+        font-size: .9rem;
+    }
+    /*------------------------service_section9_media query-end here-----------------------------*/
+    /*------------------------service_section10_media query-start here-----------------------------*/
+    .service_section10 .service_section10_content h1 {
+        font-size: 2rem;
+    }
+    .service_section10 .service_section10_content p {
+        font-size: 1.2rem;
+    }
+    .service_section10 .service_section10_content ul {
+        font-size: .9rem;
+    }
+    /*------------------------service_section10_media query-end here-----------------------------*/
+}
